@@ -37,3 +37,4 @@ npm install rxjs-tslint@latest --save-dev
 npm install webpack@latest --save-dev
 In your tsconfig.json file add:
 angularCompilerOptions: { enableIvy: true }
+#-advance concepts of typescript-
