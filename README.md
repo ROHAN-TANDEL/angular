@@ -26,3 +26,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 # angular
+angular 7 update
+npm install @angular/animations@latest @angular/common@latest @angular/compiler@latest @angular/core@latest @angular/forms@latest @angular/http@latest @angular/platform-browser@latest @angular/platform-browser-dynamic@latest @angular/platform-server@latest @angular/router@latest --save
+npm install @angular-devkit/build-angular@latest @angular/compiler-cli@latest @angular/cli@latest @angular/language-service@latest --save-dev
+npm install core-js@latest zone.js@latest --save
+npm install @types/jasmine@latest @types/node@latest codelyzer@latest karma@latest karma-chrome-launcher@latest karma-cli@latest karma-jasmine@latest karma-jasmine-html-reporter@latest jasmine-core@latest jasmine-spec-reporter@latest protractor@latest tslint@latest --save-dev
+npm install typescript@latest --save-dev
+npm install rxjs@latest rxjs-compat@latest --save
+npm install rxjs-tslint@latest --save-dev
+npm install webpack@latest --save-dev
+In your tsconfig.json file add:
+angularCompilerOptions: { enableIvy: true }
